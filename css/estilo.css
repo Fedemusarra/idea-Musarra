@@ -5,7 +5,8 @@
     height: 100%;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "foto1" "foto2";
+    grid-template-areas: "foto1"
+ "foto2";
     column-gap: 20px;
     row-gap: 20px;
     align-items: center;
@@ -96,3 +97,9 @@ main h5 {
   text-align: center;
   align-items: center;
   align-content: center; }
+
+
+  iframe{
+    width: 95%;
+      height: 95%
+  }
