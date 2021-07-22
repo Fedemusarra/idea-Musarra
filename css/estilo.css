@@ -100,6 +100,6 @@ main h5 {
 
 
   iframe{
-    width: 95%;
-      height: 95%
+  text-align: left;
+  align-items: flex-end;
   }
