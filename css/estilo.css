@@ -6,7 +6,7 @@
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "foto1"
- "foto2";
+                          "foto2";
     column-gap: 20px;
     row-gap: 20px;
     align-items: center;
@@ -15,7 +15,7 @@
       width: 95%;
       height: 95%; } }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 992px) {
   .contenedorDos {
     border-top: 1px solid black;
     display: grid;
@@ -98,6 +98,8 @@ main h5 {
   align-items: center;
   align-content: center; }
 
+@media only screen and (min-width: 992px) {
+
 .sticky-container {
   padding: 0px;
   margin: 0px;
@@ -109,7 +111,7 @@ main h5 {
 
 .sticky li {
   list-style-type: none;
-  background-color: #fff;
+  background-color:transparent;
   color: #efefef;
   height: 43px;
   padding: 0px;
@@ -136,4 +138,5 @@ main h5 {
       color: #2C3539; }
     .sticky li p a:hover{
         text-decoration:underline;
+      }
     }
