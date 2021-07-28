@@ -5,7 +5,8 @@
     height: 100%;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "foto1" "foto2";
+    grid-template-areas: "foto1"
+ "foto2";
     column-gap: 20px;
     row-gap: 20px;
     align-items: center;
@@ -96,3 +97,43 @@ main h5 {
   text-align: center;
   align-items: center;
   align-content: center; }
+
+.sticky-container {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  right: -130px;
+  top: 230px;
+  width: 210px;
+  z-index: 1100; }
+
+.sticky li {
+  list-style-type: none;
+  background-color: #fff;
+  color: #efefef;
+  height: 43px;
+  padding: 0px;
+  margin: 0px 0px 1px 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer; }
+  .sticky li img {
+    float: left;
+    margin: 5px 4px;
+    margin-right: 5px; }
+    .sticky li:hover{
+      margin-left:-115px;}
+    
+  .sticky li p {
+    padding-top: 5px;
+    margin: 0px;
+    line-height: 16px;
+    font-size: 11px; }
+    .sticky li p a {
+      text-decoration: none;
+      color: #2C3539; }
+    .sticky li p a:hover{
+        text-decoration:underline;
+    }
